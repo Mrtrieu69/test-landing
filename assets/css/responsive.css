@@ -1,0 +1,254 @@
+/* >= Tablet */
+@media (min-width: 768px) {
+    .header .navbar .phone span {
+        display: block;
+    }
+
+    .header .navbar {
+        margin-top: 40px;
+    }
+
+    .header .logo {
+        width: unset;
+    }
+
+    .header .title {
+        font-size: 5.4rem;
+    }
+
+    .header .open {
+        font-size: 2.4rem;
+    }
+
+    .btn.primary {
+        width: 240px !important;
+        height: 80px;
+        font-size: 1.8rem;
+    }
+
+    .header .actions {
+        flex-direction: row;
+    }
+
+    .header .hero {
+        margin-top: 154px;
+    }
+
+    .header .logo-mobile {
+        margin-top: 40px;
+        width: unset;
+    }
+
+    .feedback .slider .swiper-slide {
+        padding: 0 100px;
+    }
+
+    .feedback .slider .title {
+        font-size: 3.6rem;
+    }
+
+    .feedback .slider .desc {
+        font-size: 1.6rem;
+    }
+
+    .feedback .slider .author {
+        font-size: 2.4rem;
+    }
+
+    .feedback .slider .item img {
+        width: unset;
+    }
+
+    .feedback {
+        padding: 220px 0;
+        background-color: var(--blue-color);
+    }
+
+    .restaurant .title {
+        font-size: 2.2rem;
+    }
+
+    .restaurant .subtitle {
+        font-size: 1.6rem;
+    }
+
+    .product .left .title {
+        font-size: 3.4rem;
+    }
+
+    .product .left .desc {
+        font-size: 1.6rem;
+    }
+
+    .product .row {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .product .row:nth-child(2n) {
+        flex-direction: row-reverse;
+    }
+
+    .restaurant .right {
+        margin-top: 80px;
+        padding-left: 97px;
+        padding-right: 100px;
+    }
+
+    .restaurant .image-left {
+        position: absolute;
+        bottom: -85px;
+        left: -97px;
+    }
+
+    .restaurant .image-right {
+        position: absolute;
+        top: -51px;
+        right: -100px;
+    }
+
+    .view {
+        height: 505px;
+    }
+
+    .view .actions {
+        display: block;
+        flex-shrink: 0;
+    }
+
+    .view .title,
+    .contacts .title {
+        font-size: 4rem;
+    }
+
+    .view .desc {
+        font-size: 1.6rem;
+    }
+
+    .view .swiper-slide {
+        width: 60%;
+    }
+
+    .contacts {
+        margin-top: 300px;
+    }
+
+    .contacts .row {
+        flex-direction: row;
+    }
+
+    .contacts .contact-item .desc {
+        font-size: 1.6rem;
+    }
+
+    .contacts .contact-item .value {
+        font-size: 2.2rem;
+    }
+
+    .contacts .contact-list {
+        margin-top: 35px;
+        row-gap: 40px;
+    }
+
+    .contacts .right {
+        width: 57%;
+    }
+
+    .contacts .form {
+        margin-top: 29px;
+    }
+
+    .contacts .form-top {
+        flex-direction: row;
+    }
+
+    .contacts .label {
+        margin-top: 10px;
+    }
+
+    .footer .body {
+        flex-direction: row;
+    }
+}
+
+/* = PC */
+@media (min-width: 1024px) {
+    .header .list {
+        display: flex;
+    }
+
+    .header .navbar {
+        margin-top: 55px;
+    }
+
+    .header .title {
+        font-size: 6.4rem;
+    }
+
+    .header .actions {
+        margin-top: 40px;
+    }
+
+    .btn.primary {
+        width: 270px !important;
+        height: 100px;
+    }
+
+    .header .toggle-menu-mobile {
+        display: none;
+    }
+
+    .header .menu-mobile {
+        display: none !important;
+    }
+
+    .header .layout {
+        display: none !important ;
+    }
+
+    .restaurant .title {
+        font-size: 2.4rem;
+    }
+
+    .restaurant .subtitle {
+        font-size: 1.8rem;
+    }
+
+    .restaurant .left {
+        width: 40%;
+    }
+
+    .restaurant .right {
+        margin-left: 34px;
+        margin-top: 0;
+    }
+
+    .restaurant .row {
+        flex-direction: row;
+    }
+
+    .product .left .title {
+        font-size: 4rem;
+    }
+
+    .view .title,
+    .contacts .title {
+        font-size: 4.8rem;
+    }
+
+    .view {
+        height: 605px;
+    }
+
+    .view .swiper-slide {
+        width: 50%;
+    }
+
+    .contacts {
+        margin-top: 400px;
+    }
+
+    .contacts .contact-item .value {
+        font-size: 2.4rem;
+    }
+}

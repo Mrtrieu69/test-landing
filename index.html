@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web-верстальщик</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+    </head>
+    <body>
+        <main>
+            <!-- Header -->
+            <header class="header">
+                <div class="main-content">
+                    <nav class="navbar">
+                        <a href="#1" class="logo">
+                            <img src="./assets/images/logo.png" alt="" />
+                        </a>
+                        <ul class="list">
+                            <li class="item"><a href="#1">À la carte</a></li>
+                            <li class="item"><a href="#1">Wijnkaart</a></li>
+                            <li class="item"><a href="#1">Lunchmenu</a></li>
+                            <li class="item"><a href="#1">Contact</a></li>
+                        </ul>
+                        <a href="tel:+3292825725" class="phone">
+                            <img src="./assets/images/icons/phone.svg" alt="" />
+                            <span>+32 9 282 57 25</span>
+                        </a>
+                        <div class="toggle-menu-mobile">
+                            <span></span>
+                        </div>
+
+                        <!-- Menu on mobile -->
+                        <div class="layout"></div>
+                        <div class="menu-mobile">
+                            <span class="close"></span>
+                            <div class="logo-mobile">
+                                <img src="./assets/images/logo.png" alt="" />
+                            </div>
+                            <ul class="list-mobile">
+                                <li class="item-mobile"><a href="#1">À la carte</a></li>
+                                <li class="item-mobile"><a href="#1">Wijnkaart</a></li>
+                                <li class="item-mobile"><a href="#1">Lunchmenu</a></li>
+                                <li class="item-mobile"><a href="#1">Contact</a></li>
+                            </ul>
+                            <a href="tel:+3292825725" class="phone-mobile">
+                                <img src="./assets/images/icons/phone.svg" alt="" />
+                                <span>+32 9 282 57 25</span>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="hero">
+                        <p class="open">OPEN EVERYDAY 6AM - 9PM</p>
+                        <h1 class="title">
+                            A bad day with lunch is better than a good day without it.
+                        </h1>
+                        <div class="actions">
+                            <button class="btn primary hero-cta">Reserve a table</button>
+                            <div class="socials">
+                                <a href="#1" class="social">
+                                    <button class="btn circle">Fb</button>
+                                </a>
+                                <a href="#1" class="social">
+                                    <button class="btn circle">Ig</button>
+                                </a>
+                                <a href="#1" class="social">
+                                    <button class="btn circle">Tw</button>
+                                </a>
+                                <a href="#1" class="social">
+                                    <button class="btn circle">Yt</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Restaurant -->
+            <section class="restaurant">
+                <div class="main-content">
+                    <div class="row">
+                        <div class="left">
+                            <ul class="list">
+                                <li class="item">
+                                    <h3 class="title">Woensdag 12/01</h3>
+                                    <div class="subtitle">
+                                        <p class="line-clamp">Salade met Serrano</p>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <p class="line-clamp">Steak Tartaar</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3 class="title">Donderdag 13/01</h3>
+                                    <div class="subtitle">
+                                        <p class="line-clamp">Toast Roquefort</p>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <p class="line-clamp">Penne met Kip en Prei</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3 class="title">Vrijdag 14/01</h3>
+                                    <div class="subtitle">
+                                        <p class="line-clamp">Verrassing van de Chef</p>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <p class="line-clamp">Penne met Kip en Prei</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3 class="title">Vrijdag 15/01</h3>
+                                    <div class="subtitle">
+                                        <p class="line-clamp">Verrassing van de Chef</p>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <p class="line-clamp">Penne met Kip en Prei</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3 class="title">Vrijdag 16/01</h3>
+                                    <div class="subtitle">
+                                        <p class="line-clamp">Verrassing van de Chef</p>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <p class="line-clamp">Penne met Kip en Prei</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <div class="frame">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            ./assets/images/restaurant-1@1x.png 1x,
+                                            ./assets/images/restaurant-1@2x.png 2x
+                                        "
+                                    />
+                                    <img
+                                        src="./assets/images/restaurant-1@1x.png"
+                                        srcset="./assets/images/restaurant-1@2x.png 2x"
+                                        class="image-left"
+                                        alt=""
+                                    />
+                                </picture>
+                                <source />
+                                <picture>
+                                    <source
+                                        srcset="
+                                            ./assets/images/restaurant-2@1x.png 1x,
+                                            ./assets/images/restaurant-2@2x.png 2x
+                                        "
+                                    />
+                                    <img
+                                        src="./assets/images/restaurant-2@1x.png"
+                                        srcset="./assets/images/restaurant-2@2x.png 2x"
+                                        class="image-right"
+                                        alt=""
+                                    />
+                                </picture>
+                                <source />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Feedback -->
+            <section class="feedback">
+                <div class="main-content">
+                    <div class="slider">
+                        <button class="btn prev"></button>
+                        <button class="btn next"></button>
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/icons/quotes.svg" alt="" />
+                                    <h2 class="title">
+                                        Goede service, lekker eten, toffe ambiance
+                                    </h2>
+                                    <p class="desc">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing
+                                        elitr, sed diam nonumy eirmod tempor invidunt ut
+                                        labore et dolore magna aliquyam erat, sed diam
+                                        voluptua. At vero eos et accusam et justo duo
+                                        dolores et ea rebum. Stet clita kasd gubergren.
+                                    </p>
+                                    <h3 class="author">ALAIN HEYNDRICKX</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/icons/quotes.svg" alt="" />
+                                    <h2 class="title">
+                                        Goede service, lekker eten, toffe ambiance
+                                    </h2>
+                                    <p class="desc">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing
+                                        elitr, sed diam nonumy eirmod tempor invidunt ut
+                                        labore et dolore magna aliquyam erat, sed diam
+                                        voluptua. At vero eos et accusam et justo duo
+                                        dolores et ea rebum. Stet clita kasd gubergren.
+                                    </p>
+                                    <h3 class="author">ALAIN HEYNDRICKX</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/icons/quotes.svg" alt="" />
+                                    <h2 class="title">
+                                        Goede service, lekker eten, toffe ambiance
+                                    </h2>
+                                    <p class="desc">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing
+                                        elitr, sed diam nonumy eirmod tempor invidunt ut
+                                        labore et dolore magna aliquyam erat, sed diam
+                                        voluptua. At vero eos et accusam et justo duo
+                                        dolores et ea rebum. Stet clita kasd gubergren.
+                                    </p>
+                                    <h3 class="author">ALAIN HEYNDRICKX</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product -->
+            <section class="product">
+                <div class="main-content">
+                    <div class="body">
+                        <div class="row">
+                            <div class="left">
+                                <h2 class="title">LEKKER ETEN</h2>
+                                <p class="desc">
+                                    Eten gaat niet over indruk maken op mensen. Het gaat
+                                    erom dat ze zich op hun gemak voelen. Dat is onze
+                                    filosofie, goed eten in een goede sfeer.
+                                </p>
+                            </div>
+                            <div class="right">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            ./assets/images/product-1@1x.png 1x,
+                                            ./assets/images/product-1@2x.png 2x
+                                        "
+                                    />
+                                    <img
+                                        src="./assets/images/product-1@1x.png"
+                                        srcset="./assets/images/product-1@2x.png 2x"
+                                        alt=""
+                                    />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="left">
+                                <h2 class="title">TOFFE AMBIANCE</h2>
+                                <p class="desc">
+                                    Het creëren van de juiste sfeer is zeer belangrijk
+                                    voor ons. We nemen onze tijd om te zorgen dat alle
+                                    elementen bijdragen aan de juiste setting.
+                                </p>
+                            </div>
+                            <div class="right">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            ./assets/images/product-2@1x.png 1x,
+                                            ./assets/images/product-2@2x.png 2x
+                                        "
+                                    />
+                                    <img
+                                        src="./assets/images/product-2@1x.png"
+                                        srcset="./assets/images/product-2@2x.png 2x"
+                                        alt=""
+                                    />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="left">
+                                <h2 class="title">LEKKERE COCKTAILS</h2>
+                                <p class="desc">
+                                    Ons doel is simpel: een gastvrije plek bieden waar u
+                                    kunt genieten van een onvergetelijke cocktail, een
+                                    goed gesprek en lekker eten.
+                                </p>
+                            </div>
+                            <div class="right">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            ./assets/images/product-3@1x.png 1x,
+                                            ./assets/images/product-3@2x.png 2x
+                                        "
+                                    />
+                                    <img
+                                        src="./assets/images/product-3@1x.png"
+                                        srcset="./assets/images/product-3@2x.png 2x"
+                                        alt=""
+                                    />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View -->
+            <section class="view">
+                <div class="main-content">
+                    <div class="head">
+                        <div class="info">
+                            <h2 class="title">Sfeerfoto's</h2>
+                            <p class="desc">
+                                De beste manier om de sfeer te ervaren is eens langskomen.
+                                In tussentijd hebben we hier alvast wat foto’s voor je
+                                klaar.
+                            </p>
+                        </div>
+                        <div class="actions">
+                            <button class="btn prev"></button>
+                            <button class="btn next"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <picture>
+                                        <source
+                                            srcset="
+                                                ./assets/images/view-1@1x.jpg 1x,
+                                                ./assets/images/view-1@2x.jpg 2x
+                                            "
+                                        />
+                                        <img
+                                            src="./assets/images/view-1@1x.jpg"
+                                            srcset="./assets/images/view-1@2x.jpg 2x"
+                                            alt=""
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <picture>
+                                        <source
+                                            srcset="
+                                                ./assets/images/view-2@1x.jpg 1x,
+                                                ./assets/images/view-2@2x.jpg 2x
+                                            "
+                                        />
+                                        <img
+                                            src="./assets/images/view-2@1x.jpg"
+                                            srcset="./assets/images/view-2@2x.jpg 2x"
+                                            alt=""
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <picture>
+                                        <source
+                                            srcset="
+                                                ./assets/images/view-3@1x.jpg 1x,
+                                                ./assets/images/view-3@2x.jpg 2x
+                                            "
+                                        />
+                                        <img
+                                            src="./assets/images/view-3@1x.jpg"
+                                            srcset="./assets/images/view-3@2x.jpg 2x"
+                                            alt=""
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contacts -->
+            <section class="contacts">
+                <div class="main-content">
+                    <div class="row">
+                        <div class="left">
+                            <h2 class="title">Contacts</h2>
+                            <div class="contact-list">
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <img
+                                            src="./assets/images/icons/phone-stroke.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="info">
+                                        <p class="desc">Phone Number</p>
+                                        <p class="value">+32 9 282 57 25</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <img
+                                            src="./assets/images/icons/mail-stroke.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="info">
+                                        <p class="desc">Email</p>
+                                        <p class="value">info@email.com</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <img
+                                            src="./assets/images/icons/time-stroke.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="info">
+                                        <p class="desc">Opening Hours</p>
+                                        <p class="value">Everyday from 6 AM - 9 PM</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <img
+                                            src="./assets/images/icons/map-stroke.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="info">
+                                        <p class="desc">Map Street</p>
+                                        <p class="value">Jl. Raya Surabaya 2787</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h2 class="title">have any questions?</h2>
+                            <div class="form">
+                                <div class="form-top">
+                                    <div class="form-group">
+                                        <p class="label">Name</p>
+                                        <input
+                                            type="text"
+                                            class="form-input"
+                                            placeholder="Input your name"
+                                        />
+                                    </div>
+                                    <div class="form-group">
+                                        <p class="label">Email</p>
+                                        <input
+                                            type="text"
+                                            class="form-input"
+                                            placeholder="Input your Email"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <p class="label">Speciale Request</p>
+                                    <textarea
+                                        name=""
+                                        id=""
+                                        cols="30"
+                                        rows="3"
+                                        class="form-input"
+                                        placeholder="Input your special request"
+                                    ></textarea>
+                                </div>
+                                <button class="btn primary">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Embed map -->
+            <section class="map">
+                <div class="main-content">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146744.77680015168!2d30.34193815314711!3d59.89539552192136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1674848041133!5m2!1sru!2sru"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="main-content">
+                    <div class="body">
+                        <a href="#1" class="logo">
+                            <img src="./assets/images/logo-dark.png" alt="" />
+                        </a>
+                        <div class="btns">
+                            <a href="#1"><button class="btn circle">Fb</button></a>
+                            <a href="#1"><button class="btn circle">Ig</button></a>
+                            <a href="#1"><button class="btn circle">Tw</button></a>
+                            <a href="#1"><button class="btn circle">Yt</button></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
