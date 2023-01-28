@@ -25,9 +25,16 @@
     }
 
     .btn.primary {
-        width: 240px !important;
+        width: 240px;
         height: 80px;
         font-size: 1.8rem;
+    }
+
+    .form-input {
+        padding: 28px 16px;
+    }
+    .form-group .label {
+        margin-top: 10px;
     }
 
     .header .actions {
@@ -167,13 +174,6 @@
         flex-direction: row;
     }
 
-    .contacts .form-input {
-        padding: 28px 16px;
-    }
-    .contacts .form .label {
-        margin-top: 10px;
-    }
-
     .contacts .contact-item .icon {
         width: 64px;
         height: 64px;
@@ -181,6 +181,10 @@
 
     .footer .body {
         flex-direction: row;
+    }
+
+    .form-reserve .title {
+        font-size: 3.2rem;
     }
 }
 
@@ -207,7 +211,7 @@
     }
 
     .btn.primary {
-        width: 270px !important;
+        width: 270px;
         height: 100px;
     }
 
@@ -267,5 +271,13 @@
 
     .contacts .contact-item .value {
         font-size: 2.4rem;
+    }
+
+    .contacts .form .btn.primary {
+        width: 270px;
+    }
+
+    .form-reserve .title {
+        font-size: 3.6rem;
     }
 }

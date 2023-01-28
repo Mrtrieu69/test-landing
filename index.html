@@ -463,21 +463,23 @@
                         </div>
                         <div class="right">
                             <h2 class="title">have any questions?</h2>
-                            <div class="form">
+                            <form class="form">
                                 <div class="form-top">
                                     <div class="form-group">
                                         <p class="label">Name</p>
                                         <input
                                             type="text"
                                             class="form-input"
+                                            required
                                             placeholder="Input your name"
                                         />
                                     </div>
                                     <div class="form-group">
                                         <p class="label">Email</p>
                                         <input
-                                            type="text"
+                                            type="email"
                                             class="form-input"
+                                            required
                                             placeholder="Input your Email"
                                         />
                                     </div>
@@ -485,16 +487,14 @@
                                 <div class="form-group">
                                     <p class="label">Speciale Request</p>
                                     <textarea
-                                        name=""
-                                        id=""
                                         cols="30"
                                         rows="3"
                                         class="form-input"
                                         placeholder="Input your special request"
                                     ></textarea>
                                 </div>
-                                <button class="btn primary">Send</button>
-                            </div>
+                                <button type="submit" class="btn primary">Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -532,6 +532,48 @@
                 </div>
             </footer>
         </main>
+
+        <!-- Modal for reserve a table -->
+        <div class="modal">
+            <div class="modal-layout"></div>
+            <div class="modal-content">
+                <span class="close black"></span>
+                <form class="form-reserve">
+                    <h2 class="title">Reserve a table</h2>
+                    <div class="form-group">
+                        <p class="label">Name</p>
+                        <input
+                            type="text"
+                            class="form-input"
+                            name="name"
+                            required
+                            placeholder="Input your name"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <p class="label">Email</p>
+                        <input
+                            type="email"
+                            class="form-input"
+                            name="email"
+                            required
+                            placeholder="Input your email"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <p class="label">Speciale Request</p>
+                        <textarea
+                            cols="30"
+                            rows="3"
+                            class="form-input"
+                            name="request"
+                            placeholder="Input your special request"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send</button>
+                </form>
+            </div>
+        </div>
 
         <script src="./assets/js/script.js"></script>
     </body>
