@@ -45,7 +45,7 @@ a {
 
 .main-content {
     position: relative;
-    width: 1168px;
+    width: 100%;
     max-width: calc(100% - 40px);
     margin: 0 auto;
 }
@@ -121,6 +121,7 @@ a {
 /* Header */
 .header {
     height: 100vh;
+    max-height: 900px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -429,7 +430,6 @@ a {
 }
 
 .feedback .slider .swiper-slide {
-    padding: 0 20px;
     text-align: center;
 }
 
@@ -546,7 +546,7 @@ a {
 .view .title {
     font-weight: 700;
     font-size: 3.6rem;
-    line-height: 1.83;
+    line-height: 1.53;
     color: #ffffff;
 }
 
@@ -606,7 +606,7 @@ a {
 .contacts .title {
     font-weight: 700;
     font-size: 3.6rem;
-    line-height: 1.83;
+    line-height: 1.53;
     color: #000000;
 }
 
@@ -625,8 +625,8 @@ a {
 
 .contacts .contact-item .icon {
     flex-shrink: 0;
-    width: 64px;
-    height: 64px;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -681,7 +681,7 @@ a {
 .contacts .form-input {
     max-height: 125px;
     width: 100%;
-    padding: 28px 16px;
+    padding: 17px 16px;
     border: 1px solid #cccccc;
     font-weight: 400;
     font-size: 1.6rem;

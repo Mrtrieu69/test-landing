@@ -1,5 +1,9 @@
 /* >= Tablet */
 @media (min-width: 768px) {
+    .main-content {
+        max-width: calc(100% - 80px);
+    }
+
     .header .navbar .phone span {
         display: block;
     }
@@ -119,6 +123,7 @@
     .view .title,
     .contacts .title {
         font-size: 4rem;
+        line-height: 1.83;
     }
 
     .view .desc {
@@ -162,8 +167,16 @@
         flex-direction: row;
     }
 
-    .contacts .label {
+    .contacts .form-input {
+        padding: 28px 16px;
+    }
+    .contacts .form .label {
         margin-top: 10px;
+    }
+
+    .contacts .contact-item .icon {
+        width: 64px;
+        height: 64px;
     }
 
     .footer .body {
@@ -173,6 +186,10 @@
 
 /* = PC */
 @media (min-width: 1024px) {
+    .main-content {
+        width: 1168px;
+    }
+
     .header .list {
         display: flex;
     }
