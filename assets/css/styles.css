@@ -900,6 +900,10 @@ main {
     color: #2e2e2e;
 }
 
+.contacts .contact-item .value a {
+    color: #2e2e2e;
+}
+
 .contacts .right {
     width: 100%;
 }
