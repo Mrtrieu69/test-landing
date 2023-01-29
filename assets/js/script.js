@@ -61,7 +61,7 @@ submitReserve.addEventListener("click", (e) => {
     );
 
     if (emailBooker.value.trim() === "" || nameBooker.value.trim() === "") {
-        alert("Name and email is required!");
+        alert("Name and email are required!");
         return;
     }
 
@@ -113,8 +113,11 @@ viewSwiper.slideTo(1, 0);
 function showAnimate() {
     const animateItems = document.querySelectorAll("[data-animate]:not(.show)");
 
-    // Return when all animate items are showing
-    if (!animateItems.length) return;
+    // Stop listening when all animate items are showing
+    if (!animateItems.length) {
+        document.removeEventListener("scroll", showAnimate);
+        return;
+    }
 
     animateItems.forEach((item) => {
         const { innerHeight } = window;
