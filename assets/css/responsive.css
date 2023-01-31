@@ -35,7 +35,7 @@
         padding: 28px 16px;
     }
     .form-group .label {
-        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .header .actions {
@@ -260,7 +260,7 @@
     }
 
     .restaurant .left {
-        width: 40%;
+        width: 40.15%;
     }
 
     .restaurant .right {
@@ -289,7 +289,7 @@
     }
 
     .view .swiper-slide {
-        width: 50%;
+        width: 57.5%;
     }
 
     .contacts {

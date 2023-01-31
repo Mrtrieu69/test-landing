@@ -43,6 +43,7 @@ textarea {
 a {
     text-decoration: none;
     color: #ffffff;
+    display: inline-flex;
 }
 
 main {
@@ -54,6 +55,8 @@ main {
     width: 100%;
     max-width: calc(100% - 40px);
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .btn {
@@ -145,6 +148,7 @@ main {
     line-height: 1.5;
     color: #000000;
     resize: none;
+    display: block;
 }
 
 .form-input::-webkit-input-placeholder,
@@ -536,6 +540,7 @@ main {
 }
 
 .restaurant .item {
+    height: 114px;
     padding: 20px 0;
     border-bottom: 1px solid #e7e7e7;
 }
@@ -625,7 +630,8 @@ main {
 }
 
 .feedback .slider .swiper-slide img {
-    width: 60px;
+    width: 83px;
+    height: 58px;
 }
 
 .feedback .slider .title {
@@ -740,6 +746,11 @@ main {
     font-size: 1.4rem;
     line-height: 2;
     color: #808080;
+}
+
+.product .right img {
+    display: block;
+    margin-bottom: 1px;
 }
 
 /* View */
